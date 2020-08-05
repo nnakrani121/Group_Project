@@ -17,7 +17,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
+<<<<<<< HEAD
             android:text="Login"
+=======
+            android:text="@string/login"
+>>>>>>> b6fb354... In This Project making Login Page
             android:textStyle="bold"
             android:textSize="45dp"
             android:fontFamily="cursive"
@@ -45,7 +49,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
+<<<<<<< HEAD
             android:hint="Username"/>
+=======
+            android:hint="@string/username"/>
+>>>>>>> b6fb354... In This Project making Login Page
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -61,7 +69,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
+<<<<<<< HEAD
             android:hint="Password"/>
+=======
+            android:hint="@string/password"/>
+>>>>>>> b6fb354... In This Project making Login Page
     </com.google.android.material.textfield.TextInputLayout>
 
 <Button
