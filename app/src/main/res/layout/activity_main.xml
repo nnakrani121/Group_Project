@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,11 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-<<<<<<< HEAD
-            android:text="Login"
-=======
             android:text="@string/login"
->>>>>>> b6fb354... In This Project making Login Page
             android:textStyle="bold"
             android:textSize="45dp"
             android:fontFamily="cursive"
@@ -29,9 +26,10 @@
             />
     </LinearLayout>
 
+
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_below="@+id/header"
     android:padding="15dp"
@@ -42,18 +40,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:errorEnabled="true"
-
         android:hint="@+id/username">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-<<<<<<< HEAD
-            android:hint="Username"/>
-=======
-            android:hint="@string/username"/>
->>>>>>> b6fb354... In This Project making Login Page
+            android:hint="Username"
+            android:inputType="text" />
+
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -69,11 +63,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-<<<<<<< HEAD
-            android:hint="Password"/>
-=======
             android:hint="@string/password"/>
->>>>>>> b6fb354... In This Project making Login Page
+
     </com.google.android.material.textfield.TextInputLayout>
 
 <Button
@@ -86,5 +77,29 @@
 
 </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/login_contact_us_n"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Have a Contact?"
+            android:gravity="end"
+            android:layout_marginEnd="5dp"
+            android:textSize="20dp" />
+
+        <TextView android:id="@+id/login_contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Contact Us"
+            android:textSize="20dp"
+            android:textColor="#3F51B5"/>
+    </LinearLayout>
+
+</LinearLayout>

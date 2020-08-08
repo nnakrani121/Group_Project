@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/header"
+        android:orientation="vertical"
+        android:background="@drawable/about_us_nnd">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="creted by:-"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:paddingLeft="40dp"
+            android:text="->Nikhil is Creating Login Page."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:paddingLeft="40dp"
+            android:text="->Nirmit is Creating About_Us page"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:paddingLeft="40dp"
+            android:text="->Darshit is Creating Contact_Us,Splash_Screen Page"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:paddingLeft="40dp"
+            android:paddingTop="20dp"
+            android:text="And over functionality is a login and contact us pages is a using matirial disign..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:paddingTop="10dp"
+            android:textSize="22sp"
+            android:text="virson:- 1.0.1">
+        </TextView>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/aboutus_to_contact_us_n"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Have a Contact?"
+        android:gravity="end"
+        android:layout_marginEnd="5dp"
+        android:textSize="20dp" />
+
+    <TextView android:id="@+id/aboutus_to_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Contact Us"
+        android:textSize="20dp"
+        android:textColor="#3F51B5"/>
+</LinearLayout>
+
+</LinearLayout>
